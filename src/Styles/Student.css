@@ -1,0 +1,25 @@
+.flex{
+display: flex;
+ margin: 0;
+ padding: 0;
+ min-height: calc(100vh - 60px);
+
+}
+.linkStudent{
+   width: 240px;
+   min-height: calc(100vh - 60px);
+   border-right: 1px solid black;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding: 15px;
+   gap: 10px;
+   box-sizing: border-box;
+   flex-shrink: 0;
+  
+   
+}
+.contant{
+    flex:1;
+    padding: 20px;
+    
+}

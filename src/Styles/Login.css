@@ -1,0 +1,55 @@
+.login{
+    display: flex;
+}
+.welcomePage{
+    background-color: rgba(18, 118, 18, 0.458);
+    color: white;
+    width: 50%;
+    height: calc(100vh - 52px);
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-left: 30px;
+
+   h3{
+    padding-bottom: 50px;
+   }
+   p{
+    padding-bottom: 40px;
+    padding-top: 20px;
+   }
+   span{
+    font-size: 50px;
+    font-family: bold;
+   }
+}
+.inputs{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: calc(100vh - 52px);
+    min-height: 100vh;
+     padding-top: 30px;
+     padding-left: 20px;
+    p{
+        padding-bottom: 30px;
+    }
+    h2{
+        padding-bottom: 30px;
+    }
+
+}
+.link a{
+    
+    border: 1px solid blue;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    
+}
+.link{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}

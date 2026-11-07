@@ -1,0 +1,13 @@
+.nav{
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+    a{
+        text-align: start;
+        text-decoration: none;
+        color: red;
+    }
+    h1{
+        text-align: center;
+    }
+}
